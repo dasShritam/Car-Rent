@@ -1,0 +1,30 @@
+.main-menu .active {
+  color: #1595eb;
+}
+.main-menu {
+  background-color: lightgray;
+  margin: 5px 10px;
+  border-radius: 8px;
+}
+
+.main-menu ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+}
+
+.main-menu a {
+  text-decoration: none;
+}
+
+.push-right {
+  margin-left: auto;
+  text-align: center;
+}
+
+.logo img {
+  width: 100px;
+}

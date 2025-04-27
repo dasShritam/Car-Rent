@@ -1,0 +1,33 @@
+.not_found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.not_found-container h1 {
+  font-size: 8rem;
+  color: red;
+}
+
+.not_found-container h2 {
+  font-size: 3rem;
+}
+
+.not_found-container p {
+  font-size: 2rem;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.not_found-container a {
+  display: flex;
+  justify-content: center;
+  background-color: #363d40;
+  border-radius: 10px;
+  width: 160px;
+  margin-top: 150px;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}

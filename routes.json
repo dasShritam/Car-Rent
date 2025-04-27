@@ -1,0 +1,7 @@
+{
+  "/api/*": "/$1",
+  "users*": "/600/users$1",
+  "/cars*": "/664/cars$1",
+  "/cars": "/cars?_page=1",
+  "/cars?_page=:page": "/cars?_page=:page&_limit=20"
+}

@@ -1,0 +1,244 @@
+/* styles for locations list */
+
+.locations-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.locations-title-container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 240px;
+  border-radius: 10px;
+  font-size: 2.5rem;
+  padding: 10px;
+  color: #363d40;
+}
+
+.locations-list {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  margin-top: 40px;
+}
+
+.add-location {
+  display: flex;
+  justify-content: center;
+  background-color: #363d40;
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* styles for location card */
+
+.location-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.location-card-container iframe {
+  width: 400px;
+  height: 225px;
+}
+
+/* styles for location details */
+
+.location-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  z-index: 10;
+}
+
+.location-details-container h1 {
+  font-size: 2.5rem;
+  padding: 10px;
+}
+
+.location-details-container iframe {
+  width: 380px;
+  height: 214px;
+}
+
+.edit-delete-location-container {
+  display: flex;
+  margin: 40px;
+}
+
+.link-edit-location {
+  display: flex;
+  justify-content: center;
+  background-color: #363d40;
+  border-radius: 10px;
+  width: 160px;
+  margin-right: 100px;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-delete-location {
+  background-color: #363d40;
+  border: 0px;
+  border-radius: 10px;
+  width: 160px;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+}
+
+/* styles for location edit and add */
+
+.location-edit-container,
+.location-add-container {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.location-edit-container-fluid,
+.location-add-container-fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px;
+}
+
+.title-edit,
+.title-add {
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.location-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 0 20px;
+}
+
+.location-property {
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+}
+
+.location-property input {
+  background-color: transparent;
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+  border-bottom: 3px solid #363d40;
+}
+
+.btn-edit-location,
+.btn-add-location {
+  background-color: #363d40;
+  border: 0px;
+  border-radius: 10px;
+  width: 120px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+}
+
+.error-message {
+  color: red;
+}
+
+/* styles for modal */
+
+.modal-container {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  background-color: rgba(44, 44, 44, 0.5);
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-height: 50vh;
+  margin: auto;
+  background-color: white;
+  border-radius: 0.75rem;
+}
+
+.modal-content-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+
+.modal-content-header h2 {
+  margin: 10px;
+}
+
+.modal-close {
+  position: relative;
+  top: 0%;
+  right: 0%;
+  margin: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.5rem;
+  background-color: #363d40;
+  color: white;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.modal-body p {
+  margin: 25px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+.btn-modal-decision {
+  background-color: #363d40;
+  border: 0px;
+  border-radius: 5px;
+  width: 50px;
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 1rem;
+  color: white;
+}
